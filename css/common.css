@@ -197,7 +197,7 @@ body[data-top="no-top"] #header .logo_box .logo{background-image:url(../images/l
 #sub_banner .path_wrap .path_list{display: flex;justify-content: center;align-items: center;width: 100%;max-width: 1200px;margin: 0 auto;}
 #sub_banner .path_wrap .path_list .path_item{width: 50%;}
 #sub_banner .path_wrap .path_list .path_text{height: 70px;display: inline-flex;justify-content: center;align-items: center;background-color: rgba(0, 0, 0, 0.3);font-size: 20px;font-weight: 500;color: #ccc;width: 100%;}
-#sub_banner .path_wrap .path_list .path_item.active .path_text{background-color: white;color: #008e43;font-weight: 600;}
+#sub_banner .path_wrap .path_list .path_item.active .path_text{background-color: white;color: #dd2a2a;font-weight: 600;}
 
 .sub_tabbox{height:70px;border-bottom:1px solid #ccc;font-size:0;text-align:center;z-index:9;position:relative;}
 .sub_tabbox .tab_list{top:0;left:0;width:100%;height:70px;background-color:white;box-shadow:0 0 3px rgba(12, 12, 12, 0.3);}
@@ -255,6 +255,7 @@ body[data-top="no-top"] #header .logo_box .logo{background-image:url(../images/l
 .footer_top .link_list .link_open.on:before{transform:scaleY(-1);}
 .footer_top .family_site{}
 .footer_top .family_site .link_open{background-color:#e5e5e5;}
+.footer_top .family_site .link_open img{margin-left: 25px;}
 .footer_top .company_info{margin-left:20px;}
 .footer_top .company_info .link_open{border:1px solid #181818;background-color:#f8f8f8;}
 .footer_top .company_info .link_open.on{border-bottom-color:#f8f8f8;}
@@ -273,7 +274,7 @@ body[data-top="no-top"] #header .logo_box .logo{background-image:url(../images/l
 .footer_bot .linkbox li a{color:#181818;font-size:16px;font-weight:700;}
 .footer_bot .corp_info{font-size:0;}
 .footer_bot .corp_info span{font-size: 16px;position:relative;vertical-align: top;word-break: keep-all;margin-right: 20px;}
-.footer_bot .corp_info span:before{content: "";display: block;position: absolute;top: calc(50% - 7px);right: -10px;width: 1px;height: 14px;background-color: #d2d2d2;}
+.footer_bot .corp_info span:before{content: "";display: block;position: absolute;top: calc(50% - 7px);right: -10px;width: 0px;height: 14px;background-color: #d2d2d2;}
 .footer_bot .corp_info span:last-child{margin-right: 0;}
 .footer_bot .corp_info span:last-child:before{display: none;}
 .footer_bot .copyright{font-size:14px;margin-top: 20px;}
